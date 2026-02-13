@@ -1,5 +1,19 @@
-<template>First</template>
+<template>
+    <div class="page-root">
+        <LayerSwap />
+    </div>
+</template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import LayerSwap from '../components/LayerSwap.vue'
+</script>
 
-<style lang="sass" scoped></style>
+<style lang="scss" scoped>
+.page-root {
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+</style>

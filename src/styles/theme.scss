@@ -1,0 +1,30 @@
+/* Theme variables for light/dark and compact spacing */
+:root {
+	--bg: #0f1724;
+	--panel: #0b1220;
+	--text: #e6eef8;
+	--muted: #9fb4d6;
+	--accent: #3aa0ff;
+	--border: #2c3e50;
+	--gap: 8px;
+	--radius: 8px;
+	--control-height: 34px;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--bg: #f6f8fa;
+		--panel: #ffffff;
+		--text: #0f1724;
+		--muted: #5b6b7a;
+		--accent: #0066cc;
+		--border: #e6edf3;
+	}
+}
+
+/* Utility helpers */
+.layer-swap-root {
+	background: var(--bg);
+	color: var(--text);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}

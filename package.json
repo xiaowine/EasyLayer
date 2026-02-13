@@ -1,9 +1,9 @@
 {
-	"name": "pro-api-sdk",
-	"description": "嘉立创EDA & EasyEDA 专业版扩展 API 开发工具",
-	"author": "JLCEDA <support@lceda.cn>",
-	"license": "Apache-2.0",
-	"homepage": "https://pro.lceda.cn/",
+	"name": "easy-layer",
+	"description": "PCB导线换层与清理工具",
+	"author": "xiao_wine",
+	"license": "GPL v3",
+	"homepage": "https://github.com/xiaowine/EasyLayer",
 	"scripts": {
 		"compile": "rimraf ./dist/ && ts-node ./config/esbuild.prod.ts",
 		"prepare": "husky",
@@ -42,8 +42,7 @@
 		"@vue/tsconfig": "^0.8.1",
 		"typescript": "~5.9.3",
 		"vite": "^7.2.4",
-		"vue-tsc": "^3.1.4",
-		"sass-embedded": "^1.93.3"
+		"vue-tsc": "^3.1.4"
 	},
 	"lint-staged": {
 		"*.ts": "eslint --cache --fix",

@@ -25,6 +25,6 @@ const openPage = async (name: string, width: number, height: number) => {
 	}
 };
 
-export async function about(): Promise<void> {
-	await openPage('First', 400, 300);
+export async function homeMenuItemRegister(): Promise<void> {
+	await openPage('First', 341.4, 206);
 }
